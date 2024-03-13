@@ -2,7 +2,7 @@ import React from 'react';
 
 function StateSelection({ formData, handleInputChange }) {
     return (
-        <div className="mb-3">
+        <div className="mb-3 text-white">
             <label htmlFor="estado" className="form-label">Estado</label>
             <select className="form-select" id="estado" value={formData.estado} onChange={handleInputChange}>
                 <option value="">Selecciona tu estado</option>
