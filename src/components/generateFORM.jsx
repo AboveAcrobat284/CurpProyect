@@ -59,7 +59,7 @@ function GenerateCurpForm() {
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid justify-content-center">
                     <a className="navbar-brand">
-                    Proyecto Individual
+                    Proyecto Curp
                     </a>
                 </div>
             </nav>

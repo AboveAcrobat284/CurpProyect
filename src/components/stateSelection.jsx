@@ -1,10 +1,16 @@
 import React from 'react';
 
 function StateSelection({ formData, handleInputChange }) {
+    const selectStyle = {
+        backgroundColor: '#636e72', // color medio oscuro para el select
+        color: '#ffffff', // texto blanco para el select
+        borderColor: '#b2bec3', // borde claro para el select
+    };
+
     return (
-        <div className="mb-3 text-white">
+        <div className="mb-3" style={{ color: '#b2bec3' }}> {/* Texto claro */}
             <label htmlFor="estado" className="form-label">Estado</label>
-            <select className="form-select" id="estado" value={formData.estado} onChange={handleInputChange}>
+            <select className="form-select" id="estado" value={formData.estado} onChange={handleInputChange} style={selectStyle}>
                 <option value="">Selecciona tu estado</option>
                 <option value="AGUASCALIENTES">AGUASCALIENTES</option>
                 <option value="BAJA CALIFORNIA SUR">BAJA CALIFORNIA SUR</option>
